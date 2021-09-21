@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(image1.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.gallary{
+    border: red solid 1px;
+}
+.responsive{
+   
+ 
+  width: 100%;
+  margin-top: 50vh;
+
+}
+
+
+video{
+    
+  width: 100%; 
+  height: auto;
+}
+.desc{
+    padding:10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cover{
+    height: 100vh;
+    background-color: black;
+    width: 100vw;
+    opacity: 0.7;
+}
+h1{
+    color: chartreuse;
+}
+nav{
+    background:linear-gradient(90deg, red,blue,green);
+    height: 30px;
+    color: white;
+   
+}
+p{
+  line-height: 20px;
+    display: inline-block;
+    color: rgb(0, 240, 240);
+   padding-top: 15vh;
+    width: 150px;
+  margin-bottom: 4px;
+}
+button{
+color: red;
+margin-top: 10vh;
+margin-bottom: 20px;
+border: 1px red solid;
+padding: 10px;
+border-radius: 10px;
+background-color: chartreuse;
+box-shadow: -5px 5px 5px  chartreuse;
+}
+.heart {
+    position: absolute;
+    margin: auto;
+    left: 50vw;
+    right: 50vw;
+    top: 10vh;
+    background-color:rgb(228, 22, 56);
+    height: 50px;
+    width: 50px;
+    transform:rotate(-45deg);
+  }
+  .heart::after {
+    background-color: rgb(224, 18, 53);
+    content: "";
+    border-radius: 70%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    left: 25px;
+  }
+  .heart::before {
+    content: "";
+    background-color: rgb(245, 13, 52);
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -25px;
+    left: 0px;
+  }
+  
+ 
